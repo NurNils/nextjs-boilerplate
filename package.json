@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"./{components,lib,pages,public,styles}/**/*.{ts,tsx,js,json,html,css}\"",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "mongoose": "^6.8.0",
+    "next": "latest",
+    "next-sitemap": "^3.1.32",
+    "prettier": "^2.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.5",
+    "@types/react": "16.9.17",
+    "typescript": "4.6.3"
+  }
+}
